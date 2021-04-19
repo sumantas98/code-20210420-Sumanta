@@ -27,7 +27,7 @@ This project contains the below folder and files .
 
 --Function EDA (Exploratory Data Analysis)-->input Data "filename"  --> Return type DataFrame:
 - Opening Json files from Data.json
-- Loading Data inside Countinide DataFrame for faster response and perform easy calculation.
+- Loading Data inside DataFrame for faster response and perform easy calculation.
 - Converting Height from cm to m2 and Calculating BMI.
 
 --Function calculateBMI()-->input Data "filename" --> Return type JSON:

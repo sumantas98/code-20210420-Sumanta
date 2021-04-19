@@ -2,7 +2,7 @@
 ✔ Python BMI Calculator Coding Challenge
 
 # Project description:
-This project has designed to calculate the BMI Rate, BMI Category and Health Risk of any person.User can provide  multiple dataset through JSON format(1 lakh Dataset at a time). Program will return the output in same JSON format.
+This project has been designed to calculate the BMI Rate, BMI Category and Health Risk of any person.User can provide  multiple dataset through JSON format(1 lakh Dataset at a time). Program will return the output in same JSON format.
 
 # Necessary Libraries:
 - pandas
@@ -26,15 +26,15 @@ This project contains the below folder and files .
 # Solution Approach:
 
 --Function EDA (Exploratory Data Analysis)-->input Data "filename"  --> Return type DataFrame:
-- Reading Json files from Data.json
-- Load Data insde DataFrame for faster response and perform easy calculation.
+- Opening Json files from Data.json
+- Loading Data inside Countinide DataFrame for faster response and perform easy calculation.
 - Converting Height from cm to m2 and Calculating BMI.
 
 --Function calculateBMI()-->input Data "filename" --> Return type JSON:
 - Calculating BMI_Category and Health_risk inside dataframe using lambda function for less execution time.
 
 --Function BMICategoryCount ()--> input Data "filename" and "BMI Category" --> Return type Integer:
-- Count the total number of overweight people -> This problem has solved by two ways 
+- Counting the total number of overweight people -> This problem has solved by two ways 
     - i>  Using groupby operation 
     - ii> Using list,filter and lambda 
 - unittestcase.py is containing all test cases.
